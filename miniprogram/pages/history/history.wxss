@@ -1,0 +1,109 @@
+.sousuo1 {
+  margin-left: 15rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  /* border: 1px solid #d0d0d0;   */
+  border-radius: 10rpx;
+  color: olivedrab;
+  margin-top: 13px;
+}
+
+.search2 {
+  display: flex;
+  margin-top: 10px;
+  /* flex-direction: row; *//* margin-top: 10px */
+}
+
+/* .search4 {
+  width: 80%;
+} */
+
+.hot1 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.hot2 {
+  font-size: 14px;
+}
+
+.history-img {
+  width: 40px;
+  height: 40px;
+}
+
+.history-title {
+  margin-top: 10xp;
+}
+
+.search_no {
+  text-align: center;
+  margin-top: 40%;
+}
+
+.history-list {
+}
+
+.search {
+  width: 97%;
+}
+
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+  background-color: gainsboro;
+}
+
+.search_arr input {
+  margin-left: 80rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+
+.bc_text {
+  line-height: 68rpx;
+  height: 68rpx;
+  margin-top: 34rpx;
+}
+
+.sousuo {
+  margin-left: 15rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  /* border: 1px solid #d0d0d0;   */
+  border-radius: 10rpx;
+  color: olivedrab;
+}
+
+.page_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left: 25rpx;
+  z-index: 2;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+.list-text {
+  margin-left: 13px;
+}
+
+/* .history-list{
+margin-top: 20px;
+padding-top: 20px;
+} */
+
+.list-h {
+  margin-top: 3%;
+}

@@ -1,0 +1,27 @@
+<view class="search2">
+  <view class='page_row'>
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input class="" bindinput='bindInputName' value="{{searchValue}}" placeholder="请输入关键字" />
+      </view>
+    </view>
+    <!-- <view class='sousuo'>搜索</view> -->
+  </view>
+  <view class="sousuo1" bindtap="seo">搜索</view>
+</view>
+<view class="list-h">
+  <ul class="history-list">
+    <li wx:for="{{list}}" class="list-text" bindtap="alllist" data-tag="{{item.tag}}" data-name="{{item.name}}">
+      {{item.name}}
+    </li>
+  </ul>
+</view>
+<!-- <view wx:for="{{list.name}}"></view> -->
+<!-- <view class="hot1">
+  <view class="hot2" bindtap="hot">热门搜索</view>
+</view> -->
+<view class="search_no" wx:if="{{!centent_Show}}">
+  <image class="history-img" src="../../images/ku.png"></image>
+  <view class="history-title">很抱歉,没有找到您要搜索的资料</view>
+</view>

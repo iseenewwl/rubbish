@@ -1,0 +1,39 @@
+<view class="search2">
+  <search class="search3" bindtap="sousuo">
+  </search>
+  <!-- <view class="sousuo1">搜索</view> -->
+</view>
+<view class="chunk">
+  <view class="chunk-one" bindtap="skip">
+    <view class="one-img1">
+      <image class="one-img" src="../../images/湿垃圾.png">
+      </image>
+      <view class="one-text">湿垃圾</view>
+      <view class="one-text">Wet garbage</view>
+    </view>
+  </view>
+  <view class="chunk-two" bindtap="skiph">
+    <view class="one-img1">
+      <image class="one-img" src="../../images/干垃圾.png">
+      </image>
+      <view class="one-text1">干垃圾</view>
+      <view class="one-text1">Dry garbage</view>
+    </view>
+  </view>
+  <view class="chunk-three" bindtap="skipe">
+    <view class="one-img1">
+      <image class="one-img" src="../../images/可回收物.png">
+      </image>
+      <view class="one-text2">可回收物</view>
+      <view class="one-text2">Recyclable</view>
+    </view>
+  </view>
+  <view class="chunk-four" bindtap="skipi">
+    <view class="one-img1">
+      <image class="one-img" src="../../images/有害垃圾.png">
+      </image>
+      <view class="one-text3">有害垃圾</view>
+      <view class="one-text3">Harmful waste</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view class="pay">
+  <view class="pay_title">
+    <image class="title_img" src="../../images/ping.png"></image>
+    <view class="title_text">{{title}}</view>
+    <view class="title_price">￥：{{price}}</view>
+  </view>
+  <view class="pay_z" bindtap="pay">支付</view>
+</view>
+<!-- <view class="page">
+  <view class="swiper-tab">
+    <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">待支付</view>
+    <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">支付成功</view>
+    <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">支付记录</view>
+  </view>
+</view> -->
+<!-- 弹窗 -->
+<view class="zhi" hidden="{{bm}}">
+  <view class="zhifu">
+    垃圾你也要 脑子秀逗了伐
+  </view>
+</view>

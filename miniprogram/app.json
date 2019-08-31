@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "components/search/search",
+    "pages/history/history",
+    "pages/classify/classify",
+    "pages/recycle/recycle",
+    "pages/reylist/reylist",
+    "pages/pay/pay"
+  ],
+  "sitemapLocation": "sitemap53.json"
+}

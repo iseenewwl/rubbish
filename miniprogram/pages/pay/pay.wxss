@@ -1,0 +1,61 @@
+page {
+  background-color: gainsboro;
+}
+
+.pay_title {
+  width: 100%;
+  background: white;
+  height: 75px;
+  border-radius: 5px;
+}
+
+.title_img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 14px;
+}
+
+.title_text {
+  margin-left: 55px;
+  margin-right: 93px;
+  font-weight: 600;
+  float: left;
+  margin-top: 23px;
+}
+
+.title_price {
+  float: right;
+  margin-right: 26px;
+  color: red;
+  margin-top: 23px;
+}
+
+.pay_z {
+  margin-top: 18px;
+  float: right;
+  margin-right: 10px;
+  background: red;
+  width: 18%;
+  height: 33px;
+  color: white;
+  border-radius: 31px;
+  text-align: center;
+  line-height: 33px;
+}
+
+.zhi {
+  margin-top: 50%;
+  height: 100px;
+  background:green;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-radius: 10px;
+  line-height: 100px;
+}
+
+.zhifu {
+  text-align: center;
+  color: white
+}

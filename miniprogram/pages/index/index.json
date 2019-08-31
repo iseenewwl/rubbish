@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "垃圾分类",
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "search": "/components/search/search"
+  }
+}

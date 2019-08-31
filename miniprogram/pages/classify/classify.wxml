@@ -1,0 +1,43 @@
+<view class="classify">
+  <view class="classify-head">
+    <image class="classify-img" src="{{curType.img}}"></image>
+  </view>
+  <view class="classify-middle">
+    <view class="middle-text">
+      {{curType.middleText}}
+    </view>
+    <view class="middle-text">
+      投放要求：
+    </view>
+    <view class="middle-text">
+      {{curType.middleText1}}
+    </view>
+    <view class="middle-text">
+      {{curType.middleText2}}
+    </view>
+    <view class="middle-text">
+      {{curType.middleText3}}
+    </view>
+  </view>
+</view>
+<view class="classify-bottom">
+  <ul class="bottom-text">
+    <li wx:for="{{list}}" bindtap="cb" data-id="{{item.name}}">
+      {{item.name}}
+    </li>
+
+  </ul>
+</view>
+<view class="bottom-z" hidden="{{bm}}" bindtap="cc">
+  <view class="bottom-bm {{curType.bg}}" hidden="{{bm}}" style="">
+    <view class="bm-text1">
+      {{name}}
+    </view>
+    <image class="bm-img" src="{{curType.imgUrl}}"></image>
+    <view class="bm-text">{{curType.name}}</view>
+    <view class="bm-text">{{curType.text}}</view>
+  </view>
+</view>
+<view bindtap="suspend">
+  <image class="suspend-img" src="../../images/hui.png"></image>
+</view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "来！买垃圾",
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "search": "/components/search/search"
+  }
+}

@@ -1,0 +1,65 @@
+<view class="box">
+
+  <search bindtap="sousuo"></search>
+  <view class="recycle-left">
+    <!-- 左侧导航 -->
+    <view class='left'>
+      <scroll-view scroll-y="true" scroll-with-animation="true">
+        <block wx:for="{{left}}" wx:for-index="index" wx:key="index">
+          <view class='{{select_index==index?"active":""}}' data-index="{{index}}" bindtap='left_tap' id="left-left">
+            <view class="left-img1">
+              <image class="left-img" src="{{item.img}}"></image>
+            </view>
+            <view class="left-title">{{item.title}}</view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+    <!-- 右侧导航 -->
+    <view class='right'>
+      <scroll-view scroll-y="true" style="height: 500px;" scroll-top="{{scroll_height}}" bindscroll="scroll" scroll-with-animation="true">
+        <block wx:for="{{right}}" wx:key="index">
+          <view class='block'>
+            <view class="block-t">{{item.title}}</view>
+            <view>
+              <block wx:for="{{item.content}}" wx:key="index">
+                <view class="xxx">
+                  <image class="right-img" src="../../images/ping.png"></image>
+                  <view class='right-title'>{{item.name}}</view>
+                  <view class='right-title1'>{{item.price}}</view>
+                  <image class="right-img1" src="../../images/jia.png" data-item="{{item}}" catchtap="pur"></image>
+                </view>
+              </block>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+  </view>
+</view>
+<!-- 弹窗 -->
+<view class="recycle-t" hidden="{{bm}}" bindtap="cc">
+  <view class="recycle-g" hidden="{{bm}}">
+    <view class="t-qaq">
+      <image class="t-img" src="../../images/ping.png"></image>
+      <text class="t-name">{{name}}</text>
+      <text class="t-price">￥：{{price}}</text>
+    </view>
+    <view class="recycle-botton">
+      <view class="recycle-cancel">取消购买</view>
+      <view class="recycle-affirm" bindtap="buy">确认购买</view>
+    </view>
+  </view>
+</view>
+<!-- 登录弹窗 -->
+<view class="recycle_enter" hidden="{{am}}" bindtap="cancel">
+  <view class="recycle_enter_ter" hidden="{{am}}">
+    <view class="recycle_title">
+      亲！买垃圾之前需要授权嗷
+    </view>
+    <view class="recycle_text">
+      <view class="recycle_z">取消</view>
+      <view class="recycle_y" bindtap="user">授权</view>
+    </view>
+  </view>
+</view>
